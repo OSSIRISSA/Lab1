@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Додавання викладача</title>
+</head>
+<body>
+<header>
+    <h1>Форма для додавання викладача</h1>
+</header>
+<main>
+    <form>
+        <label for="fullName">Повне ім’я:</label><br>
+        <input type="text" id="fullName" name="fullName"><br><br>
+
+        <label for="gender">Стать:</label><br/>
+        <select id="gender" name="gender">
+            <option value="male">Чоловіча</option>
+            <option value="female">Жіноча</option>
+        </select><br/><br/>
+
+        <label for="dob">Дата народження:</label><br/>
+        <input type="date" value="2024-01-01" id="dob" name="dob"><br/><br/>
+
+        <label for="email">Email:</label><br/>
+        <input type="email" id="email" name="email"><br/><br/>
+
+        <label for="phone">Телефон:</label><br/>
+        <input type="tel" id="phone" name="phone"><br/><br/>
+
+        <label for="bgColor">Бажаний колір фону:</label><br/>
+        <input type="color" id="bgColor" name="bgColor"><br/><br/>
+
+        <label for="country">Країна:</label><br/>
+        <input type="text" id="country" name="country"><br/><br/>
+
+        <label for="city">Місто:</label><br/>
+        <input type="text" id="city" name="city"><br/><br/>
+
+        <label for="comment">Коментар:</label><br/>
+        <textarea id="comment" name="comment"></textarea><br/><br/>
+
+        <input type="submit" value="Додати">
+    </form>
+</main>
+</body>
+</html>
